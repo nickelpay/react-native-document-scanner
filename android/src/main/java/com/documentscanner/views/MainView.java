@@ -14,7 +14,7 @@ import com.documentscanner.R;
 public class MainView extends FrameLayout {
     private OpenNoteCameraView view;
 
-    private MainView(Context context, Activity activity) {
+    public MainView(Context context, Activity activity) {
         super(context);
 
         LayoutInflater lf = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
